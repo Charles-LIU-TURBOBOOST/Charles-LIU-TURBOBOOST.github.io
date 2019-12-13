@@ -63,63 +63,6 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-markdowngrammar" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/12/13/markdowngrammar/" class="article-date">
-  <time datetime="2019-12-13T11:31:59.000Z" itemprop="datePublished">2019-12-13</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/12/13/markdowngrammar/"> markdowngrammar</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>4.Markdown语法介绍<br>在前面的课程中，我们已经成功搭建了我们的blog，并将它放到了github通过域 名进行访问，今天我们来学习一下如何用Markdown来写文章。<br>首先简要介绍一下什么是Markdown：<br>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文 本格式编写文档。 Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。 Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。 Markdown 编写的文档后缀为 .md,  .markdown。<br>1.Markdown标题 我们使用#号来标记我们的标题,一共有六级标题,分别对应1到6个#号,如下<br>对应显示效果如下</p>
-<h1 id="一级标题-二级标题-三级标题-四级标题-五级标题-六级标题"><a href="#一级标题-二级标题-三级标题-四级标题-五级标题-六级标题" class="headerlink" title="一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题"></a>一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题</h1><p>2、Markdown段落<br>（1）字体<br>Markdown支持显示以下几种字体<br>对应显示效果如下：<br>（2）分隔线<br>我们使用三个以上减号来建立分隔线<br>显示效果如下<br>（3）删除线<br>删除线只需要在文字两端加上双波浪线即可<del>~<br>显示效果如下 HELLO<br>（4）下划线<br><em>斜体文本</em> <em>斜体文本</em> <strong>粗体文本</strong> <strong>粗体文本</strong> <strong><em>粗斜体文本</em></strong> <strong><em>粗斜体文本</em></strong><br>—— 分隔线<br>~</del>HELLO~~<br><u>下划线</u><br>显示效果如下<br>下划线<br>3、Markdown列表<br>列表分为有序列表和无序列表<br>1、无序列表如下所示（注意后面加一个空格）<br>显示效果如下<br>第一项 第二项 第三项<br>2、有序列表如下所示（注意后面加一个空格）<br>显示效果如下</p>
-<ol>
-<li>第一项 2. 第二项 3. 第三项<br>3、列表嵌套用法<br>显示效果如下</li>
-<li>第一项：<br>第一项嵌套的第一个元素 第一项嵌套的第二个元素</li>
-<li>第二项：</li>
-</ol>
-<ul>
-<li>第一项 - 第二项 - 第三项</li>
-</ul>
-<ol>
-<li>第一项 2. 第二项 3. 第三项</li>
-<li>第一项：    - 第一项嵌套的第一个元素    - 第一项嵌套的第二个元素 2. 第二项：    - 第二项嵌套的第一个元素    - 第二项嵌套的第二个元素<br>第二项嵌套的第一个元素 第二项嵌套的第二个元素<br>4、Markdown引用<br>显示效果如下<br>引用的一段话，这里演示用。<br>5、Markdown代码<br>（1）、代码<br>显示效果如下<br>printf()<br>（2）、代码段<br>输入如下：<br>显示效果如下：<br>6、Markdown链接<br>如下所示输入超链接<br>显示效果如下（可点击跳转百度） 百度<blockquote>
-<p>引用的一段话，这里演示用。<br><code>printf()</code><br>function test() {<br>console.log(“Hello world!”);<br>}<br><a href="https://www.baidu.com" target="_blank" rel="noopener">百度</a><br>左对齐 右对齐 居中对齐<br>单元格 单元格 单元格<br>单元格 单元格 单元格<br>7、Markdown表格<br>实例如下：<br>显示效果如下：<br>8、Markdown图片<br>插入图片我们需要先上传到图床网站获取链接，然后再插入图片链接，具体操作 如下：</p>
-</blockquote>
-</li>
-<li>我们首先打开网站<a href="https://imgchr.com/" target="_blank" rel="noopener">https://imgchr.com/</a> 2. 点击开始上传，上传一张我们想要的图 3. 上传好了我们找到下面Markdown Code并复制</li>
-<li>将复制的链接粘贴过来<br>显示成功如下<br>| 左对齐 | 右对齐 | 居中对齐 |<br>| :—–| —-: | :—-: | | 单元格 | 单元格 | 单元格 | | 单元格 | 单元格 | 单元格 |<br>[![MZ53S1.md.jpg]<br>(<a href="https://s2.ax1x.com/2019/11/08/MZ53S1.md.jpg)]" target="_blank" rel="noopener">https://s2.ax1x.com/2019/11/08/MZ53S1.md.jpg)]</a><br>(<a href="https://imgchr.com/i/MZ53S1" target="_blank" rel="noopener">https://imgchr.com/i/MZ53S1</a>)<br>这是一些基本的用法,学会了这些我们就可以写一些基本的文章来记录自己的日 常啦<del>~</del></li>
-</ol>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/12/13/markdowngrammar/" data-id="ck442t2330000i8tkexds2gae" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hello-world/" rel="tag">hello world</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/12/09/hello-world/" class="article-date">
@@ -179,23 +122,9 @@
 
   
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hello-world/" rel="tag">hello world</a></li></ul>
-    </div>
-  </div>
-
 
   
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/hello-world/" style="font-size: 10px;">hello world</a>
-    </div>
-  </div>
-
   
     
   <div class="widget-wrap">
@@ -212,10 +141,6 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
-        
-          <li>
-            <a href="/2019/12/13/markdowngrammar/"> markdowngrammar</a>
-          </li>
         
           <li>
             <a href="/2019/12/09/hello-world/">Hello World</a>
